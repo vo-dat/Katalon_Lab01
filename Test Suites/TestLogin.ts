@@ -22,6 +22,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestLogin2</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>460cac13-1259-4be4-8453-de923a0cd01e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b57e63f9-21ed-4de8-895a-b27c51d3c440</guid>
@@ -34,6 +40,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TestLogin4</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9b8d7d37-b239-4e14-88d1-883069288c4f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b21ebe76-e3d5-45b3-af6f-77a28ac2893c</guid>

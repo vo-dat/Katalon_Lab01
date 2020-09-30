@@ -24,9 +24,15 @@ WebUI.click(findTestObject('Page_2/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('Page_2/a_Login'))
 
-WebUI.setText(findTestObject('Page_2/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Page_2/input_Username_username'), UserName)
 
 WebUI.click(findTestObject('Page_2/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    30)
+
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    'Login failed! Please ensure the username and password are valid.')
 
 WebUI.closeBrowser()
 

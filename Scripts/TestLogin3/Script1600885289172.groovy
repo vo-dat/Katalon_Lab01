@@ -28,5 +28,11 @@ WebUI.setEncryptedText(findTestObject('Page_3/input_Password_password'), 'g3/DOG
 
 WebUI.click(findTestObject('Page_3/button_Login'))
 
+WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    30)
+
+WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5'), 
+    'Login failed! Please ensure the username and password are valid.')
+
 WebUI.closeBrowser()
 
