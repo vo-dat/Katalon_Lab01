@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Lab04" time="11.968" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Lab04" tests="1" failures="0" errors="0" time="11.968" timestamp="2020-10-08 08:39:38" hostname="Dat - CongDat_PC" id="Test Suites/Test Suite Lab04">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dat\\git\\Katalon_Lab01\\Reports\\20201008_083929\\Test Suite Lab04\\20201008_083931"/>
+         <property name="logFiles" value="C:\\Users\\Dat\\git\\Katalon_Lab01\\Reports\\20201008_083929\\Test Suite Lab04\\20201008_083931\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dat - CongDat_PC"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="7.7.1.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.1.15"/>
+         <property name="sessionId" value="0ae6b82fc78c515ad50ea692b087903b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/TC_Lab04_Profile" time="9.429" classname="Test Cases/TC_Lab04_Profile" status="PASSED">
+         <system-out><![CDATA[2020-10-08 08:39:39 - [TEST_CASE][PASSED] - Test Cases/TC_Lab04_Profile: Test Cases/TC_Lab04_Profile
+
+2020-10-08 08:39:39 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2020-10-08 08:39:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-08 08:39:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-08 08:39:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-08 08:39:38 - [TEST_SUITE][PASSED] - Test Suite Lab04: Test Cases/TC_Lab04_Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

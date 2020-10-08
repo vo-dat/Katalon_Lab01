@@ -14,31 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-WebUI.click(findTestObject('Page_4/a_CURA Healthcare_menu-toggle'))
-
-WebUI.click(findTestObject('Page_4/a_Login'))
-
-WebUI.setText(findTestObject('Page_4/input_Username_username'), UserName)
-
-WebUI.click(findTestObject('Page_4/input_Demo account_form-control'))
-
-WebUI.click(findTestObject('Page_4/input_Demo account_form-control'))
-
-WebUI.click(findTestObject('Page_4/input_Demo account_form-control'))
-
-WebUI.setEncryptedText(findTestObject('Page_4/input_Password_password'), PassWord)
-
-WebUI.click(findTestObject('Page_4/button_Login'))
-
-WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/h2_Make Appointment'), 30)
-
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
-
-WebUI.closeBrowser()
+WebUI.openBrowser(GlobalVariable.URL)
 

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Lab04,Chrome 85.0.4183.121,,,2020-10-08 08:39:38,2020-10-08 08:39:48,10.068s,PASSED
+,,,,,,,
+Test Cases/TC_Lab04_Profile,Chrome 85.0.4183.121,,,2020-10-08 08:39:39,2020-10-08 08:39:48,9.429s,PASSED
+openBrowser(URL),Chrome 85.0.4183.121,,,2020-10-08 08:39:39,2020-10-08 08:39:48,8.793s,PASSED

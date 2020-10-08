@@ -6,12 +6,12 @@
    <elementGuidId>70825e2c-a00f-4af5-95bd-7e965917584d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='ThisIsNotAPassword']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.col-sm-offset-4.col-sm-8 > div.input-group > input.form-control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='ThisIsNotAPassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
